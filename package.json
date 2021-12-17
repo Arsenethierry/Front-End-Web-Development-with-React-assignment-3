@@ -1,5 +1,5 @@
 {
-  "Homepage": "http://Arsenethierry.github.io/ReactJs-Cousera-Assignment-1",
+  "Homepage": "http://Arsenethierry.github.io/confusion",
   "name": "confusion",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +16,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
